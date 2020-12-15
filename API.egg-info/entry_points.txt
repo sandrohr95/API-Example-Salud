@@ -1,0 +1,3 @@
+[console_scripts]
+fimed = fimed.__main__:cli
+
