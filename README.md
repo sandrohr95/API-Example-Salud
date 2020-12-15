@@ -1,13 +1,13 @@
-Before running `ejemplo_4`, save a copy of [`.env.template`](.env) as `.env` and insert your own values. 
+Before running `API-Example-Salud`, insert your own values in `.env` . 
 
-`ejemplo4` will look for a valid `.env` file in the **current working directory**.
+`API-Example-Salud` will look for a valid `.env` file in the **current working directory**.
  In its absence, it will use environmental variables (environment variables will always take priority over values loaded from a dotenv file).
 
 ### 🚀 Setup 
 
 #### Installation
 
-Via source code:
+In order to install all the packages needed to deploy the API via source code:
 
 ```console
 $ python setup.py install
@@ -20,4 +20,6 @@ Server can be [deployed](https://fastapi.tiangolo.com/deployment/) with *uvicorn
 RUN app.py file
 ```
 
-Online documentation is available at `/api/docs`.
+This api has been nade with FastAPI. Fastapi provides swagger documentation automatically in url http://localhost:8080/api/docs. Here you can test the API methods without having to implement an interface.
+
+Online documentation is available at `http://localhost:8080/api/docs`.
