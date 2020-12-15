@@ -1,3 +1,7 @@
+### Copy the project in your local directory
+
+git clone https://github.com/sandrohr95/API-Example-Salud.git
+
 Before running `API-Example-Salud`, insert your own values in `.env` . 
 
 `API-Example-Salud` will look for a valid `.env` file in the **current working directory**.
